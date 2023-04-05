@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.h3, .h5{
+    color: #211525;
+}
+li{
+    list-style: none;   
+}
+.navlinks{
+    font-size: 1rem;
+    font-weight: normal;
+}
+.logo:hover{
+    color: nth($colores, 5);
+    transition: 0.2s;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+a:hover{
+    color: white;
+    transition: 0.4s;
+}
+
+.b-link-home{
+    color: #e55934;
+    font-size: 1em;
+    text-decoration: underline;
+    &:hover{
+        color: white solid;
+        transition: 0.3s;
+    }
+}

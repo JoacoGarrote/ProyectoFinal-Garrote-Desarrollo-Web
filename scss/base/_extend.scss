@@ -1,0 +1,31 @@
+%banners{
+    height: 800px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+%bannerinfo{
+    padding: 0.3em;
+    position: absolute;
+    width: 100%;
+    max-width: 700px;
+    text-align: center;
+    font-weight: bold;
+    color: nth($colores, 1);
+    margin: auto;
+}
+%bannertitulo{
+    line-height: 1.5;
+    font-size: 3.75em;
+}
+%bannerparrafo{
+    line-height: 2;
+    font-size: 0.9em;
+}
+
+%secundariasbg{
+    background-color: #6c6e6b;
+    background-image: linear-gradient(62deg, #6c6e6b 0%, black 100%);
+    margin: auto;
+}

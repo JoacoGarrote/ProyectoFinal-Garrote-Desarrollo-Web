@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// base //
+@import "./base/variables";
+@import "./base/listas";
+@import "./base/maps";
+@import "./base/extend";
+
+//componentes//
+@import "./components/navbar";
+@import "./components/bootstrap";
+@import "./components/footer";
+@import "./components/banners";
+@import "./components/secpages";
+@import "./components/formulario";
+@import "./components/fontphone";
+@import "./components/animaciones"

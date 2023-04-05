@@ -1,0 +1,31 @@
+.bannerhome, .bannercontacto, .bannernosotros, .bannerpartners, .bannerproductos{
+    @extend %banners;
+}
+
+.bannerhome .banner__info, .bannercontacto .banner__info, .bannernosotros .banner__info, .bannerpartners .banner__info, .bannerproductos .banner__info{
+    @extend %bannerinfo;
+}
+
+.bannerhome .banner__info .banner__titulo, .bannercontacto .banner__info .banner__titulo, .bannernosotros .banner__info .banner__titulo, .bannerpartners .banner__info .banner__titulo, .bannerproductos .banner__info .banner__titulo{
+    @extend %bannertitulo;
+}
+
+.bannerhome .banner__info .banner__titulo .banner_p, .bannercontacto .banner__info .banner__titulo .banner_p, .bannernosotros .banner__info .banner__titulo .banner_p, .bannerpartners .banner__info .banner__titulo .banner_p, .bannerproductos .banner__info .banner__titulo .banner_p{
+    @extend %bannerparrafo;
+}
+
+.bannerhome{
+    background: url(../img/hero.jpg)center/cover;
+}
+.bannerproductos{
+    background: url(../img/bannerproductos.jpg)center/cover;
+}
+.bannernosotros{
+    background: url(../img/nosotros.jpg)center/cover;
+}
+.bannerpartners{
+    background: url(../img/bannerpartners.jpg)center/cover;
+}
+.bannercontacto{
+    background: url(../img/contacto.jpeg)center/cover;
+}
